@@ -6,174 +6,176 @@
   <title>HTML Academy: Седона</title>
 </head>
 
-<body class="container">
-  <header class="main-header">
-    <a class="logo">
-      <!-- Логотип -->
-      <img src="http://placehold.it/150x100">
-    </a>
-    <nav class="main-navigation">
-      <ul>
-        <li>
-          <a href="#">Информация</a>
-        </li>
-        <li>
-          <a href="#">Фото и видео</a>
-        </li>
-        <li>
-          <a href="#">Карта штата</a>
-        </li>
-        <li class="current">
-          <a href="#">Гостиницы</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+<body>
+  <div class="wrapper">
+    <header class="main-header">
+      <a class="logo">
+        <!-- Логотип -->
+        <img src="http://placehold.it/150x100">
+      </a>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и видео</a>
+          </li>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li class="current">
+            <a href="#">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <h1>Поиск гостиницы в Седоне</h1>
+    <main>
+      <h1>Поиск гостиницы в Седоне</h1>
 
-    <section class="filters">
-      <h2>Фильтр гостиниц</h2>
-      <!-- Здесь будет форма -->
-    </section>
+      <section class="filters">
+        <h2>Фильтр гостиниц</h2>
+        <!-- Здесь будет форма -->
+      </section>
 
-    <section class="catalog">
-      <h2>Подходящие варианты</h2>
-      <p class="catalog-amount">
-        Найдено: 3
+      <section class="catalog">
+        <h2>Подходящие варианты</h2>
+        <p class="catalog-amount">
+          Найдено: 3
+        </p>
+        <p class="catalog-sort">Сортировка</p>
+        <ul class="sort-list">
+          <li class="sort-item sort-item-current">
+            <a href="#">По цене</a>
+          </li>
+          <li class="sort-item">
+            <a href="#">По типу</a>
+          </li>
+          <li class="sort-item">
+            <a href="#">По рейтингу</a>
+          </li>
+          <li class="sort-item">
+            <a href="#">По возрастанию</a>
+          </li>
+          <li class="sort-item sort-item-current">
+            <a>По убыванию</a>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <div class="catalog-item-info">
+              <h3>Название гостиницы</h3>
+              <p class="catalog-image">
+                <img src="http://placehold.it/150x100">
+              </p>
+              <p class="catalog-type">
+                Гостиница
+              </p>
+              <p class="catalog-price">
+                От 4000 р.
+              </p>
+              <p class="catalog-details">
+                <a href="#">Подробнее</a>
+              </p>
+              <p class="catalog-book">
+                <a href="#">Забронировать</a>
+              </p>
+            </div>
+            <div class="catalog-item-rating">
+              <p class="catalog-stars">
+                4 звезды
+              </p>
+              <p class="catalog-rating">
+                Рейтинг: 8,5
+              </p>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <div class="catalog-item-info">
+              <h3>Название гостиницы</h3>
+              <p class="catalog-image">
+                <img src="http://placehold.it/150x100">
+              </p>
+              <p class="catalog-type">
+                Мотель
+              </p>
+              <p class="catalog-price">
+                От 3000 р.
+              </p>
+              <p class="catalog-details">
+                <a href="#">Подробнее</a>
+              </p>
+              <p class="catalog-book">
+                <a href="#">Забронировать</a>
+              </p>
+            </div>
+            <div class="catalog-item-rating">
+              <p class="catalog-stars">
+                3 звезды
+              </p>
+              <p class="catalog-rating">
+                Рейтинг: 8,9
+              </p>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <div class="catalog-item-info">
+              <h3>Название гостиницы</h3>
+              <p class="catalog-image">
+                <img src="http://placehold.it/150x100">
+              </p>
+              <p class="catalog-type">
+                Апартаменты
+              </p>
+              <p class="catalog-price">
+                От 2000 р.
+              </p>
+              <p class="catalog-details">
+                <a href="#">Подробнее</a>
+              </p>
+              <p class="catalog-book">
+                <a href="#">Забронировать</a>
+              </p>
+            </div>
+            <div class="catalog-item-rating">
+              <p class="catalog-stars">
+                2 звезды
+              </p>
+              <p class="catalog-rating">
+                Рейтинг: 9,2
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="main-footer">
+      <p class="footer-hashtag">
+        #visitsedona
       </p>
-      <p class="catalog-sort">Сортировка</p>
-      <ul class="sort-list">
-        <li class="sort-item sort-item-current">
-          <a href="#">По цене</a>
-        </li>
-        <li class="sort-item">
-          <a href="#">По типу</a>
-        </li>
-        <li class="sort-item">
-          <a href="#">По рейтингу</a>
-        </li>
-        <li class="sort-item">
-          <a href="#">По возрастанию</a>
-        </li>
-        <li class="sort-item sort-item-current">
-          <a>По убыванию</a>
-        </li>
-      </ul>
-      <ul class="catalog-list">
-        <li class="catalog-item">
-          <div class="catalog-item-info">
-            <h3>Название гостиницы</h3>
-            <p class="catalog-image">
-              <img src="http://placehold.it/150x100">
-            </p>
-            <p class="catalog-type">
-              Гостиница
-            </p>
-            <p class="catalog-price">
-              От 4000 р.
-            </p>
-            <p class="catalog-details">
-              <a href="#">Подробнее</a>
-            </p>
-            <p class="catalog-book">
-              <a href="#">Забронировать</a>
-            </p>
-          </div>
-          <div class="catalog-item-rating">
-            <p class="catalog-stars">
-              4 звезды
-            </p>
-            <p class="catalog-rating">
-              Рейтинг: 8,5
-            </p>
-          </div>
-        </li>
-        <li class="catalog-item">
-          <div class="catalog-item-info">
-            <h3>Название гостиницы</h3>
-            <p class="catalog-image">
-              <img src="http://placehold.it/150x100">
-            </p>
-            <p class="catalog-type">
-              Мотель
-            </p>
-            <p class="catalog-price">
-              От 3000 р.
-            </p>
-            <p class="catalog-details">
-              <a href="#">Подробнее</a>
-            </p>
-            <p class="catalog-book">
-              <a href="#">Забронировать</a>
-            </p>
-          </div>
-          <div class="catalog-item-rating">
-            <p class="catalog-stars">
-              3 звезды
-            </p>
-            <p class="catalog-rating">
-              Рейтинг: 8,9
-            </p>
-          </div>
-        </li>
-        <li class="catalog-item">
-          <div class="catalog-item-info">
-            <h3>Название гостиницы</h3>
-            <p class="catalog-image">
-              <img src="http://placehold.it/150x100">
-            </p>
-            <p class="catalog-type">
-              Апартаменты
-            </p>
-            <p class="catalog-price">
-              От 2000 р.
-            </p>
-            <p class="catalog-details">
-              <a href="#">Подробнее</a>
-            </p>
-            <p class="catalog-book">
-              <a href="#">Забронировать</a>
-            </p>
-          </div>
-          <div class="catalog-item-rating">
-            <p class="catalog-stars">
-              2 звезды
-            </p>
-            <p class="catalog-rating">
-              Рейтинг: 9,2
-            </p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer class="main-footer">
-    <p class="footer-hashtag">
-      #visitsedona
-    </p>
-    <div class="footer-social">
-      <ul>
-        <li>
-          <a href="#">Твиттер</a>
-        </li>
-        <li>
-          <a href="#">Фейсбук</a>
-        </li>
-        <li>
-          <a href="#">Ютьюб</a>
-        </li>
-      </ul>
-    </div>
-    <p class="footer-copyright">
-      Website by
-      <span>HTML Academy</span>
-      <img src="http://placehold.it/150x100">
-    </p>
-  </footer>
+      <div class="footer-social">
+        <ul>
+          <li>
+            <a href="#">Твиттер</a>
+          </li>
+          <li>
+            <a href="#">Фейсбук</a>
+          </li>
+          <li>
+            <a href="#">Ютьюб</a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        Website by
+        <span>HTML Academy</span>
+        <img src="http://placehold.it/150x100">
+      </p>
+    </footer>
+  </div>
 </body>
 
 </html>
