@@ -12,7 +12,6 @@
 
       <nav class="main-navigation">
         <a class="logo" href="index.html">
-          <!-- Логотип -->
           <img src="img/logo.svg" width="138" height="70" alt="Седона">
         </a>
         <ul>
@@ -37,7 +36,83 @@
 
       <section class="filters">
         <h2>Фильтр гостиниц</h2>
-        <!-- Здесь будет форма -->
+        <form class="filters-form" action="https://echo.htmlacademy.ru" method="get">
+          <fieldset>
+            <legeng>Инфраструктура:</legeng>
+            <ul class="filters-list">
+              <li class="filters-item">
+                <label>
+                  <input class="visually-hidden" type="checkbox" name="pool" checked>
+                  <span class="checkbox-indicator"></span>
+                  <span class="checkbox-label">Бассейн</span>
+                </label>
+              </li>
+              <li class="filters-item">
+                <label>
+                  <input class="visually-hidden" type="checkbox" name="parking">
+                  <span class="checkbox-indicator"></span>
+                  <span class="checkbox-label">Парковка</span>
+                </label>
+              </li>
+              <li class="filters-item">
+                <label>
+                  <input class="visually-hidden" type="checkbox" name="wi-fi">
+                  <span class="checkbox-indicator"></span>
+                  <span class="checkbox-label">WI-FI</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legeng>Тип жилья:</legeng>
+            <ul class="filters-list">
+              <li class="filters-item">
+                <label>
+                  <input class="visually-hidden" type="checkbox" name="hotel" checked>
+                  <span class="checkbox-indicator"></span>
+                  <span class="checkbox-label">Гостиница</span>
+                </label>
+              </li>
+              <li class="filters-item">
+                <label>
+                  <input class="visually-hidden" type="checkbox" name="motel" checked>
+                  <span class="checkbox-indicator"></span>
+                  <span class="checkbox-label">Мотель</span>
+                </label>
+              </li>
+              <li class="filters-item">
+                <label>
+                  <input class="visually-hidden" type="checkbox" name="suite" checked>
+                  <span class="checkbox-indicator"></span>
+                  <span class="checkbox-label">Апартаменты</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <div class="filters-price">
+            <p class="price-range">
+              <label for="min-price">Стоимость в сутки (р):</label>
+              <input type="range" name="min-price" id="min-price">
+              <!-- Не совсем понятно: связал подпись через id, но при щелчке по подписи фильтр не становится активным. Хотя может быть для такого типа и не должен? -->
+              <input type="range" name="max-price" id="max-price">
+            </p>
+            <p class="price-output">
+              <span class="min-price-output">
+                от 0
+              </span>
+              <span class="max-price-output">
+                до 3000
+              </span>
+            </p>
+            <p class="price-markers">
+              <span class="bar"></span>
+              <span class="price-marker-left"></span>
+              <span class="price-marker-right"></span>
+              <!-- Маркеры для выбора цены -->
+            </p>
+          </div>
+          <button class="filters-button" type="submit">Показать</button>
+        </form>
       </section>
 
       <section class="catalog">
