@@ -72,26 +72,20 @@
             </ul>
           </fieldset>
           <div class="filters-price">
-            <p class="price-range">
-              <label for="min-price">Стоимость в сутки (р):</label>
-              <input type="range" name="min-price" id="min-price">
-              <!-- Не совсем понятно: связал подпись через id, но при щелчке по подписи фильтр не становится активным. Хотя может быть для такого типа и не должен? -->
-              <input type="range" name="max-price" id="max-price">
+            <p class="price-label">
+              Стоимость в сутки (р):
             </p>
-            <p class="price-output">
-              <span class="min-price-output">
-                от 0
-              </span>
-              <span class="max-price-output">
-                до 3000
-              </span>
-            </p>
-            <p class="price-markers">
-              <span class="bar"></span>
-              <span class="price-marker-left"></span>
-              <span class="price-marker-right"></span>
-              <!-- Маркеры для выбора цены -->
-            </p>
+            <div class="price-input">
+              <label>От <input type="text" name="min-price" value="0"></label>
+              <label>До <input type="text" name="max-price" value="3000"></label>
+            </div>
+            <div class="price-range">
+            	<div class="price-range-scale">
+        <div class="price-range-bar"></div>
+      </div>
+              <button class="price-range-marker left" type="button"><span class="visually-hidden">Минимальная цена</span></button>
+              <button class="price-range-marker right" type="button"><span class="visually-hidden">Максимальная цена</span></button>
+            </div>
           </div>
           <button class="filters-button" type="submit">Показать</button>
         </form>
