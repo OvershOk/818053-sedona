@@ -163,3 +163,107 @@ a {
   line-height: 25px;
   color: #000000;
 }
+
+/* 1.5 базовая стилизация раздела с поиском гостиницы */
+
+.hotel-search {
+  text-align: center;
+
+  background-color: #ffffff;
+}
+
+.hotel-search-question {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.hotel-search-intro {
+  line-height: 24px;
+}
+
+.hotel-search-open-button,
+.hotel-search-button {
+  font: inherit;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  border: none;
+  cursor: pointer;
+}
+
+.hotel-search-open-button {
+  background-color: #766357;
+}
+
+.hotel-search-open-button:hover,
+.hotel-search-open-button:focus {
+  background-color: #604e43;
+}
+
+.hotel-search-open-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+.hotel-search-button {
+  background-color: #81b3d2;
+}
+
+.hotel-search-button:hover,
+.hotel-search-button:focus {
+  background-color: #669ec0;
+}
+
+.hotel-search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.hotel-search-popup {
+  color: #000000;
+
+  background-color: #ffffff;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-search-form label {
+  font-weight: 700;
+  color: #000000;
+}
+
+.hotel-search-form input {
+  font: inherit;
+  font-weight: 700;
+  color: #000000;
+
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  outline: none;
+}
+
+.hotel-search-form input:hover {
+  background-color: #ebebeb;
+  border: 2px solid #ebebeb;
+}
+
+.hotel-search-form input:focus {
+  background-color: transparent;
+  border: 2px solid #e5e5e5;
+}
+
+.calendar-button {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.quantity-button {
+  background-color: #f2f2f2;
+  border: none;
+}
