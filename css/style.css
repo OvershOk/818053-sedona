@@ -267,3 +267,45 @@ a {
   background-color: #f2f2f2;
   border: none;
 }
+
+/* 1.6 базовая стилизация подвала */
+
+.main-footer {
+  background-color: rgba(254, 254, 254, 0.9);
+}
+
+.footer-hashtag {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer-social ul {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-social a {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+  background-color: #669ec0;
+}
+
+.footer-social a:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.footer-copyright {
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
