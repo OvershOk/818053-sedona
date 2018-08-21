@@ -33,3 +33,41 @@ body {
 
   clip: rect(0 0 0 0);
 }
+
+a {
+  text-decoration: none;
+}
+
+/* 1.2 базовая стилизация шапки */
+
+.main-header {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.main-navigation ul {
+  list-style: none;
+}
+
+.main-navigation a {
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  color: #81b3d2;
+}
+
+.main-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.current a,
+.current a:hover,
+.current a:focus,
+.current a:active {
+  color: #766357;
+}
