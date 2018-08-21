@@ -38,6 +38,16 @@ a {
   text-decoration: none;
 }
 
+.button {
+  font: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  border: none;
+  cursor: pointer;
+}
+
 /* 1.2 базовая стилизация шапки */
 
 .main-header {
@@ -185,15 +195,8 @@ a {
 
 .hotel-search-open-button,
 .hotel-search-button {
-  font: inherit;
-  font-weight: 700;
   font-size: 21px;
   line-height: 26px;
-  color: #ffffff;
-  text-transform: uppercase;
-
-  border: none;
-  cursor: pointer;
 }
 
 .hotel-search-open-button {
@@ -359,4 +362,157 @@ a {
   color: #000000;
 
   background-color: #ffffff;
+}
+
+/* 1.8 базовая стилизация каталога гостиниц */
+
+.catalog {
+  color: #333333;
+
+  background-color: #fefefe;
+}
+
+.catalog-wrapper {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.catalog-amount {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.catalog-sort {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.sort-list,
+.sort-direction-list {
+  list-style: none;
+}
+
+.sort-item a {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.sort-item a:hover,
+.sort-item a:focus {
+  color: #81b3d2;
+}
+
+.sort-item a:active {
+  color: #000000;
+
+  border-bottom: none;
+}
+
+.sort-item-current a,
+.sort-item-current a:hover,
+.sort-item-current a:focus,
+.sort-item-current a:active {
+  color: #81b3d2;
+
+  border-bottom: none;
+}
+
+.sort-direction-item a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+}
+
+.sort-direction-item a:hover,
+.sort-direction-item a:focus {
+  color: #000000;
+}
+
+.sort-direction-item a:active {
+  color: #81b3d2;
+}
+
+.sort-direction-item-current a,
+.sort-direction-item-current a:hover,
+.sort-direction-item-current a:focus,
+.sort-direction-item-current a:active {
+  color: #81b3d2;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.catalog-item-name {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.catalog-item-name a {
+  color: #000000;
+}
+
+.catalog-item-name a:hover,
+.catalog-item-name a:focus {
+  color: #81b3d2;
+}
+
+.catalog-item-name a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.details-button,
+.book-button {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.details-button {
+  background-color: #81b3d2;
+}
+
+.details-button:hover,
+.details-button:focus {
+  background-color: #669ec0;
+}
+
+.details-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.book-button {
+  background-color: #766357;
+}
+
+.book-button:hover,
+.book-button:focus {
+  background-color: #604e43;
+}
+
+.book-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+.catalog-stars {
+  color: #81b3d2;
+}
+
+.catalog-rating {
+  color: #666666;
+
+  background-color: #f2f2f2;
 }
