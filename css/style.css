@@ -309,3 +309,54 @@ a {
   text-align: center;
   color: #000000;
 }
+
+/* 1.7 базовая стилизация фильтра гостиниц */
+
+.filters {
+  color: #ffffff;
+
+  background-color: #4b7eaa;
+  background-image: url("../img/bg-filter.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.filters-form fieldset {
+  border: none;
+}
+
+.filters-form legend,
+.price-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filters-list {
+  list-style: none;
+}
+
+.price-input input {
+  font: inherit;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: none;
+}
+
+.filters-button {
+  font: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
