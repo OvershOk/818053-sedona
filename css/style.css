@@ -313,6 +313,21 @@ a {
   color: #000000;
 }
 
+.footer-copyright-link svg {
+  fill: #231f20;
+  width: 113px;
+  height: 39px;
+}
+
+.footer-copyright-link:hover svg,
+.footer-copyright-link:focus svg {
+  fill: #81b3d2;
+}
+
+.footer-copyright-link:active svg {
+  fill: #bdbbbc;
+}
+
 /* 1.7 базовая стилизация фильтра гостиниц */
 
 .filters {
