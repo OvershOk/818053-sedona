@@ -125,27 +125,27 @@ a {
   background-color: #eeeeee;
 }
 
-.features-item:nth-of-type(-n+2) {
+.features-item {
+  color: #333333;
+}
+
+.features-item h3 {
+  font-weight: 700;
+  font-size: 21px;
+  color: #000000;
+}
+
+
+.features-item-main {
   color: #ffffff;
 
   background-color: #81b3d2;
 }
 
-.features-item:nth-of-type(1) {
-  background-image: url("../img/bg-reason-1.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-}
-
-.features-item:nth-of-type(2) {
-  background-image: url("../img/bg-reason-2.jpg");
-  background-repeat: no-repeat;
-  background-position: left top;
-}
-
-.features-item:nth-of-type(-n+2) h3 {
+.features-item-main h3 {
   font-weight: 700;
   font-size: 21px;
+  color: #ffffff;
 }
 
 .more-features-list {
@@ -156,16 +156,6 @@ a {
 }
 
 .more-features-list h4 {
-  font-weight: 700;
-  font-size: 21px;
-  color: #000000;
-}
-
-.features-item:nth-of-type(n+3) {
-  color: #333333;
-}
-
-.features-item:nth-of-type(n+3) h3 {
   font-weight: 700;
   font-size: 21px;
   color: #000000;
