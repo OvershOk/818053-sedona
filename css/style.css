@@ -146,7 +146,6 @@ a {
 .features-item:nth-of-type(-n+2) h3 {
   font-weight: 700;
   font-size: 21px;
-  line-height: 25px;
 }
 
 .more-features-list {
@@ -159,7 +158,6 @@ a {
 .more-features-list h4 {
   font-weight: 700;
   font-size: 21px;
-  line-height: 25px;
   color: #000000;
 }
 
@@ -170,7 +168,6 @@ a {
 .features-item:nth-of-type(n+3) h3 {
   font-weight: 700;
   font-size: 21px;
-  line-height: 25px;
   color: #000000;
 }
 
@@ -239,12 +236,14 @@ a {
 .hotel-search-form label {
   font-weight: 700;
   color: #000000;
+  line-height: 26px;
 }
 
 .hotel-search-form input {
   font: inherit;
   font-weight: 700;
   color: #000000;
+  line-height: 26px;
 
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
