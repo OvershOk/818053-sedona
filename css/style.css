@@ -523,6 +523,11 @@ a {
 
 /* 2 сетка */
 
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* 2.1 вспомогательные стили */
 
 html,
@@ -535,4 +540,28 @@ body {
   background-image: url("../img/sedona-index-1200.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+/* 2.2 сетка шапки */
+
+.main-header {
+  /* Временно для сетки */
+  min-height: 56px;
+  background-color: transparent;
+}
+
+.main-navigation {
+  /* Временно для сетки */
+  min-height: 56px;
+  background-color: transparent;
+}
+
+.main-navigation .logo {
+  /* непонятно, как его разместить */
+  display: none;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
 }
