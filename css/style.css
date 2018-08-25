@@ -520,3 +520,19 @@ a {
 
   background-color: #f2f2f2;
 }
+
+/* 2 сетка */
+
+/* 2.1 вспомогательные стили */
+
+html,
+body {
+  min-height: 3000px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url("../img/sedona-index-1200.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
