@@ -1,0 +1,220 @@
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > *,
+body > * > * > * > *,
+body > * > * > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before,
+body > * > * > * > *::before,
+body > * > * > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: lowercase;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * > * > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+}
+
+body > * > * > *::before {
+  color: black;
+
+  background: rgb(234, 255, 45);
+}
+
+body > * > * > * > * {
+  background: rgba(0, 0, 255, 0.2);
+  box-shadow: inset 0 0 0 2px blue;
+}
+
+body > * > * > * > *::before {
+  color: white;
+
+  background: blue;
+}
+
+body > * > * > * > * > * {
+  background: rgba(128, 0, 128, 0.2);
+  box-shadow: inset 0 0 0 2px purple;
+}
+
+body > * > * > * > * > *::before {
+  color: white;
+
+  background: purple;
+}
+
+.main-header::before {
+  content: ".main-header";
+  top: auto;
+  bottom: 0;
+}
+
+.wrapper::before {
+  content: ".wrapper";
+}
+
+.main-navigation::before {
+  content: ".main-navigation";
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+}
+
+.site-navigation::before {
+  content: ".site-navigation";
+}
+
+.main-header .logo::before {
+  content: ".logo";
+}
+
+.intro::before {
+  content: ".intro";
+}
+
+.intro-logo::before {
+  content: ".intro-logo";
+}
+
+.intro-text::before {
+  content: ".intro-text";
+}
+
+.features::before {
+  content: ".features";
+}
+
+.features-subtitle::before {
+  content: ".features-subtitle";
+}
+
+.features-list::before {
+  content: ".features-list";
+}
+
+.features-item::before {
+  content: ".features-item";
+  top: auto;
+  bottom: 0;
+}
+
+.more-features-list::before {
+  content: ".more-features-list";
+}
+
+.more-features-item::before {
+  content: ".more-features-item";
+  top: auto;
+  bottom: 0;
+}
+
+.hotel-search::before {
+  content: ".hotel-search";
+}
+
+.hotel-search-question::before {
+  content: ".hotel-search-question";
+}
+
+.hotel-search-intro::before {
+  content: ".hotel-search-intro";
+}
+
+.hotel-search-open-button::before {
+  content: ".hotel-search-open-button";
+}
+
+.hotel-search-popup::before {
+  content: ".hotel-search-popup";
+}
+
+.map::before {
+  content: ".map";
+}
+
+.main-footer::before {
+  content: ".main-footer";
+}
+
+.footer-hashtag::before {
+  content: ".footer-hashtag";
+}
+
+.footer-social::before {
+  content: ".footer-social";
+}
+
+.footer-copyright::before {
+  content: ".footer-copyright";
+}
