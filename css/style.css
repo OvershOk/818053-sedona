@@ -570,7 +570,7 @@ body {
 
 .intro {
   margin-top: -56px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -594,3 +594,94 @@ body {
   /* Временно для сетки */
   min-height: 48px;
 }
+
+/* 2.4 сетка раздела преимуществ */
+
+.features {
+  /* Временно для сетки */
+  background-color: transparent;
+}
+
+.features-subtitle {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  /* Временно для сетки */
+  background-color: transparent;
+}
+
+.features-item {
+  /* Временно для сетки */
+  width: 300px;
+  min-height: 260px;
+  background-color: transparent;
+}
+
+.features-item-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-item-main.reverse {
+  flex-direction: row-reverse;
+}
+
+.features-item-main h3 {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 50px;
+  outline: 1px solid yellow;
+}
+
+.features-item-main .features-text {
+  margin: 0;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 50px;
+  outline: 1px solid blueviolet;
+}
+
+.features-item-main .features-image {
+  width: 800px;
+  margin: 0;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 256px;
+  outline: 1px solid white;
+}
+
+.features-item-wrapper {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.more-features-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /* Временно для сетки */
+  min-height: 330px;
+  background-color: transparent;
+}
+
+.more-features-item {
+  width: 300px;
+  outline: 1px solid red;
+}
+
+

@@ -169,6 +169,14 @@ body > * > * > * > * > *::before {
   bottom: 0;
 }
 
+.more-features-list {
+  outline: 1px solid red;
+}
+
+.more-features-item {
+  outline: 1px solid green;
+}
+/*
 .more-features-list::before {
   content: ".more-features-list";
 }
@@ -177,7 +185,7 @@ body > * > * > * > * > *::before {
   content: ".more-features-item";
   top: auto;
   bottom: 0;
-}
+} */
 
 .hotel-search::before {
   content: ".hotel-search";
