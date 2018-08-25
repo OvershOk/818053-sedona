@@ -565,3 +565,32 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* 2.3 сетка раздела-приветствия */
+
+.intro {
+  margin-top: -56px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+  /* Временно для сетки */
+  background: none;
+}
+
+.intro-logo {
+  margin: 0;
+  padding: 0;
+  width: 459px;
+  height: 353px;
+  margin-bottom: 145px;
+}
+
+.intro-text {
+  margin: 0;
+  padding: 0;
+  width: 440px;
+  /* Временно для сетки */
+  min-height: 48px;
+}
