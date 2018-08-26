@@ -225,15 +225,15 @@ a {
 
 .hotel-search-form label {
   font-weight: 700;
-  color: #000000;
   line-height: 26px;
+  color: #000000;
 }
 
 .hotel-search-form input {
   font: inherit;
   font-weight: 700;
-  color: #000000;
   line-height: 26px;
+  color: #000000;
 
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -303,9 +303,10 @@ a {
 }
 
 .footer-copyright-link svg {
-  fill: #231f20;
   width: 113px;
   height: 39px;
+
+  fill: #231f20;
 }
 
 .footer-copyright-link:hover svg,
@@ -538,8 +539,8 @@ body {
 body {
   /* Временно для сетки */
   background-image: url("../img/sedona-index-1200.jpg");
-  background-position: top center;
   background-repeat: no-repeat;
+  background-position: top center;
 }
 
 /* 2.2 сетка шапки */
@@ -547,12 +548,14 @@ body {
 .main-header {
   /* Временно для сетки */
   min-height: 56px;
+
   background-color: transparent;
 }
 
 .main-navigation {
   /* Временно для сетки */
   min-height: 56px;
+
   background-color: transparent;
 }
 
@@ -569,30 +572,31 @@ body {
 /* 2.3 сетка раздела-приветствия */
 
 .intro {
-  margin-top: -56px;
-  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -56px;
+  margin-bottom: 25px;
   padding-top: 130px;
   /* Временно для сетки */
+
   background: none;
 }
 
 .intro-logo {
-  margin: 0;
-  padding: 0;
   width: 459px;
   height: 353px;
+  margin: 0;
   margin-bottom: 145px;
+  padding: 0;
 }
 
 .intro-text {
-  margin: 0;
-  padding: 0;
   width: 440px;
   /* Временно для сетки */
   min-height: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 /* 2.4 сетка раздела преимуществ */
@@ -603,11 +607,11 @@ body {
 }
 
 .features-subtitle {
+  /* Временно для сетки */
+  min-height: 26px;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 26px;
 }
 
 .features-list {
@@ -617,6 +621,7 @@ body {
   margin: 0;
   padding: 0;
   /* Временно для сетки */
+
   background-color: transparent;
 }
 
@@ -624,13 +629,14 @@ body {
   /* Временно для сетки */
   width: 300px;
   min-height: 260px;
+
   background-color: transparent;
 }
 
 .features-item-main {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .features-item-main.reverse {
@@ -656,10 +662,11 @@ body {
 
 .features-item-main .features-image {
   width: 800px;
-  margin: 0;
-  padding: 0;
   /* Временно для сетки */
   min-height: 256px;
+  margin: 0;
+  padding: 0;
+
   outline: 1px solid white;
 }
 
@@ -669,18 +676,20 @@ body {
 }
 
 .more-features-list {
-  width: 100%;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-around;
+  width: 100%;
   /* Временно для сетки */
   min-height: 330px;
+  margin: 0;
+  padding: 0;
+
   background-color: transparent;
 }
 
 .more-features-item {
   width: 300px;
+
   outline: 1px solid red;
 }
 
@@ -689,31 +698,32 @@ body {
 .hotel-search {
   padding-top: 45px;
   /* Временно для сетки */
+
   background-color: transparent;
 }
 
 .hotel-search-question {
+  /* Временно для сетки */
+  min-height: 36px;
   margin: 0;
   margin-bottom: 25px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 36px;
 }
 
 .hotel-search-intro {
+  /* Временно для сетки */
+  min-height: 45px;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 45px;
 }
 
 .hotel-search-open-button {
-  margin: 0;
-  padding: 0;
   width: 568px;
   /* Временно для сетки */
   min-height: 86px;
+  margin: 0;
+  padding: 0;
 }
 
 /* 2.6 сетка раздела карты */
@@ -721,4 +731,38 @@ body {
 .map {
   /* Временно для сетки */
   min-height: 460px;
+}
+
+/* 2.7 сетка подвала */
+
+.main-footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* Временно для сетки */
+  background-color: transparent;
+}
+
+.footer-hashtag {
+  width: 240px;
+  margin: 0;
+  padding: 0;
+/* Временно для сетки */
+  min-height: 26px;
+}
+
+.footer-social {
+  width: 240px;
+/* Временно для сетки */
+  min-height: 50px;
+}
+
+.footer-copyright {
+  width: 240px;
+  margin: 0;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 45px;
 }
