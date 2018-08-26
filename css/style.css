@@ -766,3 +766,32 @@ body {
   /* Временно для сетки */
   min-height: 45px;
 }
+
+/* 2.8 сетка фильтра гостиниц */
+
+.filters {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  /* Временно для сетки */
+  background: none;
+}
+
+.filters-form {
+  display: flex;
+  /* Временно для сетки */
+  min-height: 170px;
+}
+
+.filters-form fieldset {
+  width: 235px;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.filters-column {
+  width: 320px;
+  margin-left: auto;
+}

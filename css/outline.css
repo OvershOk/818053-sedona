@@ -226,3 +226,19 @@ body > * > * > * > * > *::before {
 .footer-copyright::before {
   content: ".footer-copyright";
 }
+
+.filters::before {
+  content: ".filters";
+}
+
+.filters-form::before {
+  content: ".filters-form";
+}
+
+fieldset::before {
+  content: "fieldset";
+}
+
+.filters-column::before {
+  content: ".filters-column";
+}
