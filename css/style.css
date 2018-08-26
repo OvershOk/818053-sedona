@@ -135,7 +135,6 @@ a {
   color: #000000;
 }
 
-
 .features-item-main {
   color: #ffffff;
 
@@ -531,24 +530,17 @@ a {
 
 /* 2.1 вспомогательные стили */
 
-html,
-body {
-  min-height: 3000px;
-}
-
-body {
-  /* Временно для сетки */
+/* body {
+  Временно для сетки
   background-image: url("../img/sedona-hotels-1200.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-}
+} */
 
 /* 2.2 сетка шапки */
 
 .main-header {
   /* Временно для сетки */
-  min-height: 56px;
-
   background-color: transparent;
 }
 
@@ -736,45 +728,47 @@ body {
 /* 2.7 сетка подвала */
 
 .main-footer {
-  padding-top: 40px;
-  padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
   /* Временно для сетки */
+
   background-color: transparent;
 }
 
 .footer-hashtag {
   width: 240px;
+  /* Временно для сетки */
+  min-height: 26px;
   margin: 0;
   padding: 0;
-/* Временно для сетки */
-  min-height: 26px;
 }
 
 .footer-social {
   width: 240px;
-/* Временно для сетки */
+  /* Временно для сетки */
   min-height: 50px;
 }
 
 .footer-copyright {
   width: 240px;
-  margin: 0;
-  padding: 0;
   /* Временно для сетки */
   min-height: 45px;
+  margin: 0;
+  padding: 0;
 }
 
 /* 2.8 сетка фильтра гостиниц */
 
 .filters {
-  padding-left: 70px;
-  padding-right: 70px;
   padding-top: 25px;
+  padding-right: 70px;
   padding-bottom: 20px;
+  padding-left: 70px;
   /* Временно для сетки */
+
   background: none;
 }
 
@@ -804,54 +798,54 @@ body {
 }
 
 .catalog-wrapper {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 35px;
-  padding-bottom: 35px;
   display: flex;
   align-items: center;
+  padding-top: 35px;
+  padding-right: 70px;
+  padding-bottom: 35px;
+  padding-left: 70px;
 }
 
 .catalog-list {
   margin: 0;
   padding: 0;
-  padding-left: 70px;
   padding-right: 70px;
+  padding-left: 70px;
 }
 
 .catalog-amount {
   width: 150px;
+  /* Временно для сетки */
+  min-height: 26px;
   margin: 0;
   margin-right: 15px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 26px;
 }
 
 .catalog-sort {
   width: 100px;
+  /* Временно для сетки */
+  min-height: 26px;
   margin: 0;
   margin-right: 15px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 26px;
 }
 
 .sort-list {
   width: 700px;
-  margin: 0;
-  padding: 0;
   /* Временно для сетки */
   min-height: 26px;
+  margin: 0;
+  padding: 0;
 }
 
 .sort-direction-list {
   width: 40px;
+  /* Временно для сетки */
+  min-height: 26px;
   margin: 0;
   margin-left: auto;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 26px;
 }
 
 .catalog-item {
