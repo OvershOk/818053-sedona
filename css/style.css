@@ -684,4 +684,35 @@ body {
   outline: 1px solid red;
 }
 
+/* 2.5 сетка раздела с поиском гостиницы */
+
+.hotel-search {
+  padding-top: 45px;
+  /* Временно для сетки */
+  background-color: transparent;
+}
+
+.hotel-search-question {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 36px;
+}
+
+.hotel-search-intro {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  /* Временно для сетки */
+  min-height: 45px;
+}
+
+.hotel-search-open-button {
+  margin: 0;
+  padding: 0;
+  width: 568px;
+  /* Временно для сетки */
+  min-height: 86px;
+}
 
