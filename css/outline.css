@@ -242,3 +242,36 @@ fieldset::before {
 .filters-column::before {
   content: ".filters-column";
 }
+
+.catalog::before {
+  content: ".catalog";
+}
+
+.catalog-wrapper::before {
+  content: ".catalog-wrapper";
+}
+
+.catalog-list::before {
+  content: ".catalog-list";
+}
+
+.catalog-amount::before {
+  content: ".catalog-amount";
+}
+
+.catalog-sort::before {
+  content: ".catalog-sort";
+}
+
+.sort-list::before {
+  content: ".sort-list";
+}
+
+.sort-direction-list::before {
+  content: ".sort-direction-list";
+}
+
+.catalog-item::before {
+  content: ".catalog-item";
+}
+
