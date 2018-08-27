@@ -530,9 +530,9 @@ a {
 
 /* 2.1 вспомогательные стили */
 
-/* body {
+ /* body {
   Временно для сетки
-  background-image: url("../img/sedona-hotels-1200.jpg");
+  background-image: url("../img/sedona-index-1200.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 } */
@@ -564,21 +564,16 @@ a {
 /* 2.3 сетка раздела-приветствия */
 
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: -56px;
-  margin-bottom: 25px;
-  padding-top: 130px;
+  padding-top: 75px;
   /* Временно для сетки */
-
+  min-height: 430px;
   background: none;
 }
 
 .intro-logo {
   width: 459px;
   height: 353px;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 145px;
   padding: 0;
 }
@@ -587,7 +582,7 @@ a {
   width: 440px;
   /* Временно для сетки */
   min-height: 48px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
