@@ -604,7 +604,6 @@ a {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   margin: 0;
   padding: 0;
   /* Временно для сетки */
@@ -614,7 +613,7 @@ a {
 
 .features-item {
   /* Временно для сетки */
-  width: 300px;
+  width: 400px;
   min-height: 260px;
 
   background-color: transparent;
@@ -664,7 +663,6 @@ a {
 
 .more-features-list {
   display: flex;
-  justify-content: space-around;
   width: 100%;
   /* Временно для сетки */
   min-height: 330px;
@@ -675,7 +673,7 @@ a {
 }
 
 .more-features-item {
-  width: 300px;
+  width: 400px;
 
   outline: 1px solid red;
 }
@@ -724,7 +722,6 @@ a {
 
 .main-footer {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 30px;
@@ -734,7 +731,7 @@ a {
 }
 
 .footer-hashtag {
-  width: 240px;
+  width: 400px;
   /* Временно для сетки */
   min-height: 26px;
   margin: 0;
@@ -742,13 +739,13 @@ a {
 }
 
 .footer-social {
-  width: 240px;
+  width: 400px;
   /* Временно для сетки */
   min-height: 50px;
 }
 
 .footer-copyright {
-  width: 240px;
+  width: 400px;
   /* Временно для сетки */
   min-height: 45px;
   margin: 0;
