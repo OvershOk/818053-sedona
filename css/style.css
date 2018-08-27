@@ -18,6 +18,7 @@ body {
 
 .wrapper {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -529,32 +530,11 @@ a {
   margin: 0 auto;
 }
 
-/* 2.1 вспомогательные стили */
-
- body {
-  /* Временно для сетки */
-  background-image: url("../img/sedona-index-1200.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-/* 2.2 сетка шапки */
-
-.main-header {
-  /* Временно для сетки */
-  background-color: transparent;
-}
+/* 2.1 сетка шапки */
 
 .main-navigation {
   /* Временно для сетки */
   min-height: 56px;
-
-  background-color: transparent;
-}
-
-.main-navigation .logo {
-  /* непонятно, как его разместить */
-  display: none;
 }
 
 .site-navigation {
@@ -562,13 +542,12 @@ a {
   padding: 0;
 }
 
-/* 2.3 сетка раздела-приветствия */
+/* 2.2 сетка раздела-приветствия */
 
 .welcome {
   padding-top: 75px;
   /* Временно для сетки */
   min-height: 430px;
-  background: none;
 }
 
 .welcome-logo {
@@ -581,31 +560,25 @@ a {
 .about {
   padding-top: 65px;
   /* Временно для сетки */
-  background-color: transparent;
   min-height: 75px;
 }
 
 .about-text {
   width: 440px;
-  /* Временно для сетки */
-  min-height: 48px;
   margin: 0 auto;
   padding: 0;
-}
-
-/* 2.4 сетка раздела преимуществ */
-
-.features {
   /* Временно для сетки */
-  background-color: transparent;
+  min-height: 48px;
 }
+
+/* 2.3 сетка раздела преимуществ */
 
 .features-subtitle {
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
 }
 
 .features-list {
@@ -613,17 +586,12 @@ a {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  /* Временно для сетки */
-
-  background-color: transparent;
 }
 
 .features-item {
-  /* Временно для сетки */
   width: 400px;
-  min-height: 260px;
-
-  background-color: transparent;
+  /* Временно для сетки */
+  min-height: 250px;
 }
 
 .features-item-main {
@@ -636,31 +604,10 @@ a {
   flex-direction: row-reverse;
 }
 
-/* .features-item-main h3 {
-  margin: 0;
-  margin-bottom: 50px;
-  padding: 0;
-  Временно для сетки
-  min-height: 50px;
-  outline: 1px solid yellow;
-}
-
-.features-item-main .features-text {
-  margin: 0;
-  padding: 0;
-  Временно для сетки
-  min-height: 50px;
-  outline: 1px solid blueviolet;
-} */
-
 .features-item-main .features-image {
   width: 800px;
-  /* Временно для сетки */
-  min-height: 256px;
   margin: 0;
   padding: 0;
-
-  outline: 1px solid white;
 }
 
 .features-item-wrapper {
@@ -671,78 +618,68 @@ a {
 .more-features-list {
   display: flex;
   width: 100%;
-  /* Временно для сетки */
-  min-height: 330px;
   margin: 0;
   padding: 0;
-
-  background-color: transparent;
+  /* Временно для сетки */
+  min-height: 330px;
 }
 
 .more-features-item {
   width: 400px;
-
-  outline: 1px solid red;
 }
 
-/* 2.5 сетка раздела с поиском гостиницы */
+/* 2.4 сетка раздела с поиском гостиницы */
 
 .hotel-search {
   padding-top: 45px;
-  /* Временно для сетки */
-
-  background-color: transparent;
 }
 
 .hotel-search-question {
-  /* Временно для сетки */
-  min-height: 36px;
   margin: 0;
   margin-bottom: 25px;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 36px;
 }
 
 .hotel-search-intro {
-  /* Временно для сетки */
-  min-height: 45px;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 45px;
 }
 
 .hotel-search-open-button {
   width: 568px;
-  /* Временно для сетки */
-  min-height: 86px;
   margin: 0;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 86px;
 }
 
-/* 2.6 сетка раздела карты */
+/* 2.5 сетка раздела карты */
 
 .map {
   /* Временно для сетки */
   min-height: 460px;
 }
 
-/* 2.7 сетка подвала */
+/* 2.6 сетка подвала */
 
 .main-footer {
   display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 30px;
-  /* Временно для сетки */
-
-  background-color: transparent;
 }
 
 .footer-hashtag {
   width: 400px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
 }
 
 .footer-social {
@@ -753,22 +690,19 @@ a {
 
 .footer-copyright {
   width: 400px;
-  /* Временно для сетки */
-  min-height: 45px;
   margin: 0;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 45px;
 }
 
-/* 2.8 сетка фильтра гостиниц */
+/* 2.7 сетка фильтра гостиниц */
 
 .filters {
   padding-top: 25px;
   padding-right: 70px;
   padding-bottom: 20px;
   padding-left: 70px;
-  /* Временно для сетки */
-
-  background: none;
 }
 
 .filters-form {
@@ -789,12 +723,7 @@ a {
   margin-left: auto;
 }
 
-/* 2.9 сетка каталога гостиниц */
-
-.catalog {
-  /* Временно для сетки */
-  background-color: transparent;
-}
+/* 2.8 сетка каталога гостиниц */
 
 .catalog-wrapper {
   display: flex;
@@ -814,37 +743,37 @@ a {
 
 .catalog-amount {
   width: 150px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   margin-right: 15px;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
 }
 
 .catalog-sort {
   width: 100px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   margin-right: 15px;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
 }
 
 .sort-list {
   width: 700px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
 }
 
 .sort-direction-list {
   width: 40px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   margin-left: auto;
   padding: 0;
+  /* Временно для сетки */
+  min-height: 26px;
 }
 
 .catalog-item {
