@@ -139,16 +139,20 @@ body > * > * > * > * > *::before {
   content: ".logo";
 }
 
-.intro::before {
-  content: ".intro";
+.welcome::before {
+  content: ".welcome";
 }
 
-.intro-logo::before {
-  content: ".intro-logo";
+.welcome-logo::before {
+  content: ".welcome-logo";
 }
 
-.intro-text::before {
-  content: ".intro-text";
+.about::before {
+  content: ".about";
+}
+
+.about-text::before {
+  content: ".about-text";
 }
 
 .features::before {
