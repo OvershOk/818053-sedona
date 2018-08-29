@@ -89,9 +89,9 @@ a {
   color: #000000;
 
   background-color: #2c424b;
-  background-image: url("../img/bg-welcome.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
+  background-image: url("../img/polygon.svg"), url("../img/bg-welcome.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, center -55px;
 }
 
 .about {
@@ -541,8 +541,7 @@ a {
 
 .welcome {
   padding-top: 75px;
-  /* Временно для сетки */
-  min-height: 430px;
+  padding-bottom: 80px;
 }
 
 .welcome-logo {
@@ -553,17 +552,14 @@ a {
 }
 
 .about {
-  padding-top: 65px;
-  /* Временно для сетки */
-  min-height: 75px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .about-text {
   width: 440px;
   margin: 0 auto;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 48px;
 }
 
 /* 2.3 сетка раздела преимуществ */
@@ -809,4 +805,8 @@ a {
 .site-navigation li:nth-child(4) {
   text-align: right;
 }
+
+/* 3.3 раздел-приветствие */
+
+
 
