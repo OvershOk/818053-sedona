@@ -615,32 +615,22 @@ a {
 
 /* 2.4 сетка раздела с поиском гостиницы */
 
-.hotel-search {
-  padding-top: 45px;
-}
-
 .hotel-search-question {
   margin: 0;
   margin-bottom: 25px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 36px;
 }
 
 .hotel-search-intro {
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 45px;
 }
 
 .hotel-search-open-button {
   width: 568px;
   margin: 0;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 86px;
 }
 
 /* 2.5 сетка раздела карты */
@@ -881,5 +871,25 @@ a {
   padding: 0;
 }
 
+/* 3.4 раздел с поиском гостиницы */
+
+.hotel-search {
+  padding-top: 50px;
+}
+
+.hotel-search-intro {
+  width: 435px;
+  margin: 0 auto;
+  margin-bottom: 46px;
+}
+
+.hotel-search-open-button {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hotel-search-popup {
+  display: none;
+}
 
 
