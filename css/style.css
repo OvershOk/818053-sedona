@@ -802,26 +802,47 @@ a {
 
 /* 3.3 раздел преимуществ */
 
+.features-item {
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+.features-item-main {
+  padding: 0;
+}
+
 .features-item-wrapper {
   padding-top: 45px;
 }
 
 .features-item h3 {
   margin: 0;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 67px;
   padding: 0;
 }
 
-.features-item-wrapper h3 {
+.features-item-main h3 {
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 67px;
 }
 
-.features-item-wrapper .features-text {
+.features-item .features-text {
   margin: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+}
+
+.features-item-main .features-text {
   margin-left: 50px;
   margin-right: 50px;
-  padding: 0;
+}
+
+.features-item-main.reverse .features-text {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .features-image img {
@@ -831,7 +852,7 @@ a {
 
 .more-features-item {
   padding-top: 160px;
-  padding-bottom: 82px;
+  padding-bottom: 83px;
   background-repeat: no-repeat;
   background-position: center 60px;
 }
