@@ -829,5 +829,36 @@ a {
   height: 256px;
 }
 
+.more-features-item {
+  padding-top: 160px;
+  padding-bottom: 82px;
+  background-repeat: no-repeat;
+  background-position: center 60px;
+}
+
+.more-features-item:nth-child(1) {
+  background-image: url("../img/icon-1.svg");
+}
+
+.more-features-item:nth-child(2) {
+  background-image: url("../img/icon-2.svg");
+}
+
+.more-features-item:nth-child(3) {
+  background-image: url("../img/icon-3.svg");
+  background-position: center 55px;
+}
+
+.more-features-item h4 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.more-features-item .more-features-text {
+  margin: 0 50px;
+  padding: 0;
+}
+
 
 
