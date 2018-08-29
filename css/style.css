@@ -568,8 +568,6 @@ a {
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 26px;
 }
 
 .features-list {
@@ -581,8 +579,6 @@ a {
 
 .features-item {
   width: 400px;
-  /* Временно для сетки */
-  min-height: 250px;
 }
 
 .features-item-main {
@@ -597,13 +593,13 @@ a {
 
 .features-item-main .features-image {
   width: 800px;
+  height: 256px;
   margin: 0;
   padding: 0;
 }
 
 .features-item-wrapper {
   width: 400px;
-  padding-top: 50px;
 }
 
 .more-features-list {
@@ -611,8 +607,6 @@ a {
   width: 100%;
   margin: 0;
   padding: 0;
-  /* Временно для сетки */
-  min-height: 330px;
 }
 
 .more-features-item {
@@ -806,7 +800,34 @@ a {
   text-align: right;
 }
 
-/* 3.3 раздел-приветствие */
+/* 3.3 раздел преимуществ */
+
+.features-item-wrapper {
+  padding-top: 45px;
+}
+
+.features-item h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.features-item-wrapper h3 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 67px;
+}
+
+.features-item-wrapper .features-text {
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.features-image img {
+  width: 800px;
+  height: 256px;
+}
 
 
 
