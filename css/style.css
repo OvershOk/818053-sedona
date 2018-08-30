@@ -689,10 +689,11 @@ a {
 
 .catalog-wrapper {
   display: flex;
-  align-items: center;
-  padding-top: 35px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 30px;
   padding-right: 70px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
   padding-left: 70px;
 }
 
@@ -705,8 +706,6 @@ a {
 
 .catalog-amount {
   width: 150px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   margin-right: 15px;
   padding: 0;
@@ -714,27 +713,20 @@ a {
 
 .catalog-sort {
   width: 100px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
   margin-right: 15px;
   padding: 0;
 }
 
 .sort-list {
-  width: 700px;
-  /* Временно для сетки */
-  min-height: 26px;
+  width: 600px;
   margin: 0;
   padding: 0;
 }
 
 .sort-direction-list {
   width: 40px;
-  /* Временно для сетки */
-  min-height: 26px;
   margin: 0;
-  margin-left: auto;
   padding: 0;
 }
 
@@ -1072,4 +1064,52 @@ a {
   margin: 0 auto;
   padding: 6px 35px;
   border-radius: 2px;
+}
+
+/* 3.8 сортировка */
+
+.sort-list {
+  display: flex;
+}
+
+.sort-direction-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.sort-item {
+  margin-right: 33px;
+}
+
+.sort-item:last-child {
+  margin-right: 0;
+}
+
+.sort-direction-item {
+  margin-left: 15px;
+}
+
+.sort-direction-item:first-child {
+  margin-left: 0;
+}
+
+.sort-direction-item svg {
+  fill:#cacaca;
+}
+
+.sort-direction-item a:hover svg,
+.sort-direction-item a:focus svg {
+  fill:#231f20;
+}
+
+.sort-direction-item a:active svg {
+  fill:#81b3d2;
+}
+
+.sort-direction-item-current svg,
+.sort-direction-item-current a:hover svg,
+.sort-direction-item-current a:focus svg,
+.sort-direction-item-current a:active svg {
+  fill:#81b3d2;
 }
