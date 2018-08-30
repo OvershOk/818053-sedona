@@ -636,8 +636,12 @@ a {
 .main-footer {
   display: flex;
   align-items: center;
-  padding-top: 35px;
+  padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.main-footer.index {
+  padding-top: 35px;
 }
 
 .footer-hashtag {
@@ -866,7 +870,7 @@ a {
 
 /* 3.5 подвал */
 
-.main-footer {
+.main-footer.index {
   position: absolute;
   bottom: 0;
 }
@@ -1117,6 +1121,10 @@ a {
   position: relative;
   display: flex;
   margin-bottom: 60px;
+}
+
+.catalog-item:last-child {
+  margin-bottom: 30px;
 }
 
 .catalog-item::after {
