@@ -449,10 +449,6 @@ a {
   list-style: none;
 }
 
-.catalog-item {
-  border-bottom: 1px solid #e5e5e5;
-}
-
 .catalog-item-name {
   font-weight: 700;
   font-size: 21px;
@@ -728,11 +724,6 @@ a {
   width: 40px;
   margin: 0;
   padding: 0;
-}
-
-.catalog-item {
-  /* Временно для сетки */
-  min-height: 145px;
 }
 
 /* 3 декоративные элементы */
@@ -1112,4 +1103,137 @@ a {
 .sort-direction-item-current a:focus svg,
 .sort-direction-item-current a:active svg {
   fill:#81b3d2;
+}
+
+/* 3.9 каталог */
+
+.catalog-list {
+  margin: 0;
+  padding: 0 72px;
+  padding-top: 32px;
+}
+
+.catalog-item {
+  position: relative;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.catalog-item::after {
+  position: absolute;
+  content: "";
+  left: -70px;
+  right: -70px;
+  bottom: -30px;
+  height: 1px;
+  background-color:#e5e5e5;
+}
+
+.catalog-item-info {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog-item-image {
+  width: 135px;
+  height: 90px;
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  order: -1;
+}
+
+.catalog-item-image img {
+  display: block;
+  width: 135px;
+  height: 90px;
+}
+
+.catalog-item-name {
+  width: 100%;
+  margin: 0;
+  margin-top: -5px;
+  padding: 0;
+}
+
+.catalog-item-rating {
+  width: 110px;
+  margin-left: auto;
+}
+
+.catalog-type-wrapper {
+  align-self: stretch;
+  width: 110px;
+  margin-right: 6px;
+}
+
+.catalog-type {
+  margin: 0;
+  margin-bottom: 18px;
+  padding: 0;
+}
+
+.catalog-price {
+  margin: 0;
+  margin-bottom: 18px;
+  padding: 0;
+}
+
+.catalog-price-wrapper {
+  width: 145px;
+}
+
+.details-button {
+  padding: 4px 17px;
+  margin: 0;
+}
+
+.book-button {
+  padding: 4px 16px;
+  margin: 0;
+}
+
+.catalog-item-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.catalog-stars {
+  margin: 0;
+  margin-right: -5px;
+  padding: 0;
+  height: 17px;
+  align-self: flex-end;
+  background-image: url("../img/icon-star.svg");
+  background-repeat: repeat-x;
+  background-position: top right;
+  background-size: 23px 17px;
+}
+
+.catalog-stars.star-1 {
+  width: 23px;
+}
+
+.catalog-stars.star-2 {
+  width: 46px;
+}
+
+.catalog-stars.star-3 {
+  width: 69px;
+}
+
+.catalog-stars.star-4 {
+  width: 92px;
+}
+
+.catalog-stars.star-5 {
+  width: 115px;
+}
+
+.catalog-rating {
+  margin: 0;
+  padding: 4px 0;
+  text-align: center;
 }
