@@ -348,14 +348,6 @@ a {
   list-style: none;
 }
 
-.price-input input {
-  font: inherit;
-  color: #ffffff;
-
-  background-color: transparent;
-  border: none;
-}
-
 .filters-button {
   font: inherit;
   color: #ffffff;
@@ -673,7 +665,7 @@ a {
 .filters {
   padding-top: 27px;
   padding-right: 70px;
-  padding-bottom: 20px;
+  padding-bottom: 6px;
   padding-left: 70px;
 }
 
@@ -939,7 +931,7 @@ a {
   margin-left: 6px;
 }
 
-/* 3.6 фильтр */
+/* 3.6 чекбоксы */
 
 .filters-form legend {
   margin: 0;
@@ -984,4 +976,100 @@ a {
 
 .filters-item input[type="checkbox"]:checked:disabled + label::before {
   background-image: url("../img/checkbox-on-disabled.svg");
+}
+
+/* 3.7 фильтр цены */
+
+.price-label {
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 0;
+}
+
+.price-input {
+  position: relative;
+  height: 32px;
+  margin-bottom: 21px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  font-size: 0;
+}
+
+.price-input::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 22px;
+  background-color: #ffffff;
+}
+
+.price-input label {
+  display: inline-block;
+  width: 90px;
+  font-size: 14px;
+  line-height: 32px;
+  padding-left: 65px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.price-input input {
+  width: 50px;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+.price-range {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.price-range-scale {
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.price-range-bar {
+  width: 80%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.price-range-marker {
+  position: absolute;
+  top: -9px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ababab;
+  cursor: pointer;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+}
+
+.price-range-marker.left {
+  left: 0;
+}
+
+.price-range-marker.right {
+  left: 79%;
+}
+
+.price-range-marker:hover {
+  transform: scale(1.1);
+}
+
+.filters-button {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+  border-radius: 2px;
 }
