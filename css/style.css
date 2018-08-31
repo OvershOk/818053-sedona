@@ -814,20 +814,8 @@ a {
   top: -40px;
   left: 50%;
   transform: translateX(-50%);
-  content: "№" counter(reasons);
+  content: "— №" counter(reasons) " —";
   counter-increment: reasons;
-}
-
-.features-item .features-text::after {
-  position: absolute;
-  z-index: 1;
-  content: "";
-  width: 50px;
-  height: 2px;
-  background-color: #333333;
-  top: -31px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .features-item-main .features-text {
@@ -837,10 +825,6 @@ a {
 
 .features-item-main .features-text::before {
   background-color: #81b3d2;
-}
-
-.features-item-main .features-text::after {
-  background-color: #ffffff;
 }
 
 .features-item-main.reverse .features-text {
