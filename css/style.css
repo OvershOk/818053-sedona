@@ -1125,7 +1125,6 @@ a {
 }
 
 .catalog-item {
-  /* outline: 1px solid red; */
   position: relative;
   display: flex;
   padding-top: 31px;
@@ -1248,4 +1247,143 @@ a {
   margin: 0;
   padding: 4px 0;
   text-align: center;
+}
+
+/* 3.10 форма поиска отелей */
+
+.hotel-search-popup {
+  position: absolute;
+  left: 50%;
+  margin-left: -284px;
+  width: 458px;
+  padding: 55px;
+}
+
+.hotel-search-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotel-search-date {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 31px;
+}
+
+.hotel-search-date input {
+  font: inherit;
+  flex-grow: 1;
+  font-weight: bold;
+  padding: 6px 40px 6px 9px;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  border: 2px solid transparent;
+}
+
+.hotel-search-date input:hover {
+  background-color: #ebebeb;
+}
+
+.hotel-search-date input:focus {
+  background-color: transparent;
+  border-color: #e5e5e5;
+}
+
+.hotel-search-form label {
+  width: 112px;
+  text-align: left;
+  margin-top: 7px;
+}
+
+.calendar-button {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  right: 9px;
+  top: 50%;
+  margin-top: -10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.calendar-button svg {
+  fill: #cacaca;
+}
+
+.calendar-button:hover svg,
+.calendar-button:focus svg {
+  fill: #000000;
+}
+
+.calendar-button:active svg {
+  fill: #81b3d2;
+}
+
+.hotel-search-quantity {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.hotel-search-quantity input {
+  font: inherit;
+  line-height: 26px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 14px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid transparent;
+  background-color: #f2f2f2;
+}
+
+.hotel-search-quantity input:hover {
+  border: 2px solid transparent;
+  background-color: #f2f2f2;
+}
+
+.hotel-search-quantity .short-label {
+  width: 65px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.quantity-button {
+  cursor: pointer;
+  position: relative;
+  width: 38px;
+  height: 38px;
+}
+
+.quantity-button svg {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quantity-button g {
+  stroke: #a9a9a9;
+}
+
+.quantity-button:hover g,
+.quantity-button:focus g {
+  stroke: #000000;
+}
+
+.quantity-button:active g {
+  stroke: #81b3d2;
+}
+
+.hotel-search-button {
+  width: 100%;
+  margin-top: 55px;
+  padding-top: 15px;
+  padding-bottom: 16px;
 }
