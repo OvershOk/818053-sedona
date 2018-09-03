@@ -94,6 +94,7 @@ a {
   background-image: url("../img/polygon.svg"), url("../img/bg-welcome.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: center bottom, center -55px;
+  background-size: 1200px 57px, auto;
 }
 
 .about {
