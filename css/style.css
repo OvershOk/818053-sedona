@@ -234,25 +234,27 @@ a {
   color: #000000;
 }
 
-.hotel-search-form input {
+.hotel-search-date input,
+.hotel-search-quantity input {
   font: inherit;
   font-weight: 700;
   line-height: 26px;
   color: #000000;
-
+  text-transform: uppercase;
   background-color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  border: 2px solid transparent;
   outline: none;
 }
 
-.hotel-search-form input:hover {
+.hotel-search-date input:hover,
+.hotel-search-quantity input:hover {
   background-color: #ebebeb;
-  border: 2px solid #ebebeb;
 }
 
-.hotel-search-form input:focus {
+.hotel-search-date input:focus,
+.hotel-search-quantity input:focus {
   background-color: transparent;
-  border: 2px solid #e5e5e5;
+  border-color: #e5e5e5;
 }
 
 .calendar-button {
@@ -1254,7 +1256,7 @@ a {
 .hotel-search-popup {
   position: absolute;
   left: 50%;
-  margin-left: -284px;
+  transform: translateX(-50%);
   width: 458px;
   padding: 55px;
 }
@@ -1270,26 +1272,12 @@ a {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-bottom: 31px;
+  margin-bottom: 29px;
 }
 
 .hotel-search-date input {
-  font: inherit;
   flex-grow: 1;
-  font-weight: bold;
-  padding: 6px 40px 6px 9px;
-  text-transform: uppercase;
-  background-color: #f2f2f2;
-  border: 2px solid transparent;
-}
-
-.hotel-search-date input:hover {
-  background-color: #ebebeb;
-}
-
-.hotel-search-date input:focus {
-  background-color: transparent;
-  border-color: #e5e5e5;
+  padding: 5px 40px 4px 9px;
 }
 
 .hotel-search-form label {
@@ -1304,7 +1292,7 @@ a {
   padding: 0;
   right: 9px;
   top: 50%;
-  margin-top: -10px;
+  margin-top: -11px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -1330,22 +1318,12 @@ a {
 }
 
 .hotel-search-quantity input {
-  font: inherit;
-  line-height: 26px;
-  font-weight: bold;
   margin: 0;
   padding: 0;
   width: 14px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-  border: 2px solid transparent;
-  background-color: #f2f2f2;
-}
-
-.hotel-search-quantity input:hover {
-  border: 2px solid transparent;
-  background-color: #f2f2f2;
 }
 
 .hotel-search-quantity .short-label {
