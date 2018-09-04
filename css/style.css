@@ -797,6 +797,12 @@ a {
   padding: 0;
 }
 
+.features-item:last-child .features-text {
+  outline: 1px solid red;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
 .features-item .features-text::before {
   position: absolute;
   background-color:#eeeeee;
