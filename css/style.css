@@ -1221,34 +1221,32 @@ a {
 
 .catalog-stars {
   margin: 0;
-  margin-right: -5px;
   padding: 0;
   height: 17px;
-  align-self: flex-end;
+  max-width: 110px;
+  margin-left: auto;
   background-image: url("../img/icon-star.svg");
-  background-repeat: repeat-x;
-  background-position: top right;
-  background-size: 23px 17px;
+  background-repeat: space;
 }
 
 .catalog-stars.star-1 {
-  width: 23px;
+  width: 22px;
 }
 
 .catalog-stars.star-2 {
-  width: 46px;
+  width: 44px;
 }
 
 .catalog-stars.star-3 {
-  width: 69px;
+  width: 66px;
 }
 
 .catalog-stars.star-4 {
-  width: 92px;
+  width: 88px;
 }
 
 .catalog-stars.star-5 {
-  width: 115px;
+  width: 110px;
 }
 
 .catalog-rating {
