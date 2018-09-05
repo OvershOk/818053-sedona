@@ -93,7 +93,7 @@ a {
   background-color: #2c424b;
   background-image: url("../img/polygon.svg"), url("../img/bg-welcome.jpg");
   background-repeat: no-repeat, no-repeat;
-  background-position: center bottom, center -55px;
+  background-position: center bottom, center -56px;
   background-size: 1200px 57px, auto;
 }
 
@@ -241,6 +241,7 @@ a {
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+
   background-color: #f2f2f2;
   border: 2px solid transparent;
   outline: none;
@@ -307,6 +308,11 @@ a {
   line-height: 26px;
   text-align: center;
   color: #000000;
+}
+
+.footer-copyright-link {
+  width: 113px;
+  height: 39px;
 }
 
 .footer-copyright-link svg {
@@ -534,7 +540,7 @@ a {
 /* 2.2 сетка раздела-приветствия */
 
 .welcome {
-  padding-top: 75px;
+  padding-top: 76px;
   padding-bottom: 80px;
 }
 
@@ -546,7 +552,7 @@ a {
 }
 
 .about {
-  padding-top: 60px;
+  padding-top: 58px;
   padding-bottom: 30px;
 }
 
@@ -611,7 +617,7 @@ a {
 
 .hotel-search-question {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
   padding: 0;
 }
 
@@ -773,24 +779,28 @@ a {
 }
 
 .features-item-wrapper {
-  padding-top: 45px;
+  padding-top: 47px;
+
+  outline: 1px solid red;
 }
 
 .features-item h3 {
   margin: 0;
   margin-right: 120px;
-  margin-bottom: 67px;
+  margin-bottom: 69px;
   margin-left: 120px;
   padding: 0;
 }
 
 .features-item-main h3 {
   margin-right: 100px;
+  margin-bottom: 67px;
   margin-left: 100px;
 }
 
 .features-item .features-text {
   position: relative;
+
   margin: 0;
   margin-right: 60px;
   margin-left: 60px;
@@ -803,15 +813,18 @@ a {
 }
 
 .features-item .features-text::before {
-  position: absolute;
-  background-color:#eeeeee;
-  z-index: 2;
-  padding-left: 5px;
-  padding-right: 5px;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
   content: "— №" counter(reasons) " —";
+  position: absolute;
+  top: -42px;
+  left: 50%;
+  z-index: 2;
+
+  padding-right: 5px;
+  padding-left: 5px;
+
+  background-color: #eeeeee;
+  transform: translateX(-50%);
+
   counter-increment: reasons;
 }
 
@@ -879,8 +892,8 @@ a {
 }
 
 .hotel-search-open-button {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 29px;
+  padding-bottom: 31px;
 }
 
 /* 3.5 подвал */
@@ -952,23 +965,28 @@ a {
 }
 
 .filters-item label {
-  display: block;
   position: relative;
+
+  display: block;
+
   cursor: pointer;
 }
 
 .filters-item input[type="checkbox"] + label::before {
   content: "";
   position: absolute;
-  left: -38px;
   top: -1px;
+  left: -38px;
+
   width: 23px;
   height: 23px;
+
   background-image: url("../img/checkbox-off.svg");
 }
 
 .filters-item input[type="checkbox"]:checked + label::before {
   width: 27px;
+
   background-image: url("../img/checkbox-on.svg");
 }
 
@@ -990,12 +1008,15 @@ a {
 
 .price-input {
   position: relative;
+
+  margin-bottom: 21px;
   padding-top: 5px;
   padding-bottom: 4px;
-  margin-bottom: 21px;
+
+  font-size: 0;
+
   border: 2px solid #ffffff;
   border-radius: 2px;
-  font-size: 0;
 }
 
 .price-input::after {
@@ -1003,59 +1024,70 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+
   width: 2px;
   height: 22px;
+
   background-color: #ffffff;
+  transform: translate(-50%, -50%);
 }
 
 .price-input label {
   display: inline-block;
   width: 90px;
+  padding-left: 65px;
+
   font-size: 14px;
   line-height: 21px;
-  padding-left: 65px;
   vertical-align: top;
+
   cursor: pointer;
 }
 
 .price-input input {
   width: 50px;
   margin: 0;
-  color: inherit;
+
   font: inherit;
+  color: inherit;
+
   background: none;
   border: none;
 }
 
 .price-range {
   position: relative;
+
   margin-bottom: 32px;
 }
 
 .price-range-scale {
   height: 2px;
+
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .price-range-bar {
   width: 80%;
   height: 2px;
+
   background-color: #ffffff;
 }
 
 .price-range-marker {
   position: absolute;
   top: -9px;
+
   width: 20px;
   height: 20px;
   margin: 0;
   padding: 0;
+
+  background-color: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
-  background-color: #ababab;
-  cursor: pointer;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
 }
 
 .price-range-marker.left {
@@ -1074,6 +1106,7 @@ a {
   display: block;
   margin: 0 auto;
   padding: 6px 35px;
+
   border-radius: 2px;
 }
 
@@ -1106,23 +1139,23 @@ a {
 }
 
 .sort-direction-item svg {
-  fill:#cacaca;
+  fill: #cacaca;
 }
 
 .sort-direction-item a:hover svg,
 .sort-direction-item a:focus svg {
-  fill:#231f20;
+  fill: #231f20;
 }
 
 .sort-direction-item a:active svg {
-  fill:#81b3d2;
+  fill: #81b3d2;
 }
 
 .sort-direction-item-current svg,
 .sort-direction-item-current a:hover svg,
 .sort-direction-item-current a:focus svg,
 .sort-direction-item-current a:active svg {
-  fill:#81b3d2;
+  fill: #81b3d2;
 }
 
 /* 3.9 каталог */
@@ -1134,25 +1167,28 @@ a {
 
 .catalog-item {
   position: relative;
+
   display: flex;
   padding-top: 31px;
   padding-bottom: 31px;
 }
 
 .catalog-item::after {
-  position: absolute;
   content: "";
-  left: -72px;
+  position: absolute;
   right: -72px;
   bottom: 0;
+  left: -72px;
+
   height: 1px;
-  background-color:#e5e5e5;
+
+  background-color: #e5e5e5;
 }
 
 .catalog-item-info {
-  width: 500px;
   display: flex;
   flex-wrap: wrap;
+  width: 500px;
 }
 
 .catalog-item-image {
@@ -1204,13 +1240,13 @@ a {
 }
 
 .details-button {
-  padding: 4px 17px;
   margin: 0;
+  padding: 4px 17px;
 }
 
 .book-button {
-  padding: 4px 16px;
   margin: 0;
+  padding: 4px 16px;
 }
 
 .catalog-item-rating {
@@ -1220,21 +1256,22 @@ a {
 }
 
 .catalog-stars {
-  margin: 0;
-  padding: 0;
+  max-width: 112px;
   height: 17px;
-  max-width: 110px;
+  margin: 0;
   margin-left: auto;
+  padding: 0;
+
   background-image: url("../img/icon-star.svg");
   background-repeat: space;
 }
 
 .catalog-stars.star-1 {
-  width: 22px;
+  width: 18px;
 }
 
 .catalog-stars.star-2 {
-  width: 44px;
+  width: 42px;
 }
 
 .catalog-stars.star-3 {
@@ -1242,7 +1279,7 @@ a {
 }
 
 .catalog-stars.star-4 {
-  width: 88px;
+  width: 89px;
 }
 
 .catalog-stars.star-5 {
@@ -1252,6 +1289,7 @@ a {
 .catalog-rating {
   margin: 0;
   padding: 4px 0;
+
   text-align: center;
 }
 
@@ -1260,9 +1298,11 @@ a {
 .hotel-search-popup {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+
   width: 458px;
   padding: 55px;
+
+  transform: translateX(-50%);
 }
 
 .hotel-search-form {
@@ -1272,11 +1312,12 @@ a {
 
 .hotel-search-date {
   position: relative;
-  width: 100%;
+
   display: flex;
+  width: 100%;
   margin: 0;
-  padding: 0;
   margin-bottom: 29px;
+  padding: 0;
 }
 
 .hotel-search-date input {
@@ -1286,17 +1327,20 @@ a {
 
 .hotel-search-form label {
   width: 112px;
-  text-align: left;
   margin-top: 7px;
+
+  text-align: left;
 }
 
 .calendar-button {
   position: absolute;
-  margin: 0;
-  padding: 0;
-  right: 9px;
   top: 50%;
+  right: 9px;
+
+  margin: 0;
   margin-top: -11px;
+  padding: 0;
+
   background-color: transparent;
   cursor: pointer;
 }
@@ -1315,38 +1359,43 @@ a {
 }
 
 .hotel-search-quantity {
+  display: flex;
   width: 50%;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 .hotel-search-quantity input {
+  width: 14px;
   margin: 0;
   padding: 0;
-  width: 14px;
-  text-align: center;
-  padding-left: 10px;
   padding-right: 10px;
+  padding-left: 10px;
+
+  text-align: center;
 }
 
 .hotel-search-quantity .short-label {
   width: 65px;
   padding-left: 50px;
+
   text-align: left;
 }
 
 .quantity-button {
-  cursor: pointer;
   position: relative;
+
   width: 38px;
   height: 38px;
+
+  cursor: pointer;
 }
 
 .quantity-button svg {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
+
   transform: translate(-50%, -50%);
 }
 
@@ -1365,7 +1414,7 @@ a {
 
 .hotel-search-button {
   width: 100%;
-  margin-top: 55px;
+  margin-top: 54px;
   padding-top: 15px;
-  padding-bottom: 16px;
+  padding-bottom: 17px;
 }
