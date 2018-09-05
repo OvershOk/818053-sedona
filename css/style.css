@@ -780,8 +780,6 @@ a {
 
 .features-item-wrapper {
   padding-top: 47px;
-
-  outline: 1px solid red;
 }
 
 .features-item h3 {
@@ -1029,9 +1027,9 @@ a {
 
   width: 2px;
   height: 22px;
+  margin-top: -11px;
 
   background-color: #ffffff;
-  margin-top: -11px;
 }
 
 .price-input label {
@@ -1253,10 +1251,10 @@ a {
 }
 
 .catalog-item-rating {
-  padding-top: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 5px;
 }
 
 .catalog-stars {
