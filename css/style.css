@@ -553,7 +553,7 @@ a {
 
 .about {
   padding-top: 58px;
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
 
 .about-text {
@@ -770,7 +770,7 @@ a {
 }
 
 .features-item {
-  padding-top: 45px;
+  padding-top: 46px;
   padding-bottom: 60px;
 }
 
@@ -785,7 +785,7 @@ a {
 .features-item h3 {
   margin: 0;
   margin-right: 120px;
-  margin-bottom: 69px;
+  margin-bottom: 67px;
   margin-left: 120px;
   padding: 0;
 }
@@ -846,8 +846,8 @@ a {
 }
 
 .more-features-item {
-  padding-top: 160px;
-  padding-bottom: 83px;
+  padding-top: 162px;
+  padding-bottom: 81px;
 
   background-repeat: no-repeat;
   background-position: center 60px;
