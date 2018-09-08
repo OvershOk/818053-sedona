@@ -179,10 +179,12 @@ a {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  background-color: #ffffff;
 }
 
 .hotel-search-intro {
   line-height: 24px;
+  background-color: #ffffff;
 }
 
 .hotel-search-open-button,
@@ -615,18 +617,6 @@ a {
 
 /* 2.4 сетка раздела с поиском гостиницы */
 
-.hotel-search-question {
-  margin: 0;
-  margin-bottom: 24px;
-  padding: 0;
-}
-
-.hotel-search-intro {
-  margin: 0;
-  margin-bottom: 50px;
-  padding: 0;
-}
-
 .hotel-search-open-button {
   width: 568px;
   margin: 0;
@@ -879,14 +869,20 @@ a {
 
 /* 3.4 раздел с поиском гостиницы */
 
-.hotel-search {
+.hotel-search-question {
+  margin: 0;
+  padding: 0;
   padding-top: 50px;
+  padding-bottom: 24px;
 }
 
 .hotel-search-intro {
   width: 435px;
   margin: 0 auto;
-  margin-bottom: 46px;
+  padding: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 46px;
 }
 
 .hotel-search-open-button {
@@ -898,6 +894,7 @@ a {
 
 .main-footer.index {
   position: absolute;
+  z-index: 2;
   bottom: 0;
 }
 
@@ -1305,6 +1302,46 @@ a {
   padding: 55px;
 
   transform: translateX(-50%);
+}
+
+.map {
+  position: relative;
+  z-index: 1;
+}
+
+.features {
+  position: relative;
+  z-index: 3;
+}
+
+.hotel-search {
+  position: relative;
+  z-index: 2;
+}
+
+.hotel-search-popup-hide {
+  display: none;
+}
+
+.hotel-search-popup.show {
+  display: block;
+  animation: popup 0.5s;
+  z-index: -1;
+}
+
+@keyframes popup {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  60% {
+    transform: translate(-50%, 20%);
+  }
+  90% {
+    transform: translate(-50%, -10%);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
 }
 
 .hotel-search-form {
