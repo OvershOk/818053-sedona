@@ -12,7 +12,7 @@ button.addEventListener("click", function (evt) {
   evt.preventDefault();
   popup.classList.toggle("show");
   if (popup.classList.contains("show")) {
-    checkInDate.focus();
+    // checkInDate.focus();
   }
   if (popup.classList.contains("error")) {
     popup.classList.remove("error");
@@ -26,5 +26,14 @@ form.addEventListener("submit", function (evt) {
     popup.offsetWidth = popup.offsetWidth;
     popup.classList.add("error");
   }
+});
 
+window.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
+    evt.preventDefault();
+    if (popup.classList.contains("show")) {
+      popup.classList.remove("show");
+      popup.classList.remove("error");
+    }
+  }
 });
