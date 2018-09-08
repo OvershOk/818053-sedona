@@ -625,13 +625,6 @@ a {
   padding: 0;
 }
 
-/* 2.5 сетка раздела карты */
-
-.map {
-  /* Временно для сетки */
-  min-height: 460px;
-}
-
 /* 2.6 сетка подвала */
 
 .main-footer {
@@ -1311,6 +1304,11 @@ a {
   z-index: 1;
 }
 
+.map iframe {
+  position: absolute;
+  border: none;
+}
+
 .features {
   position: relative;
   z-index: 3;
@@ -1435,11 +1433,11 @@ a {
 }
 
 .hotel-search-quantity input {
-  width: 14px;
+  width: 24px;
   margin: 0;
   padding: 0;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 
   text-align: center;
 }
