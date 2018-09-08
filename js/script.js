@@ -14,4 +14,17 @@ button.addEventListener("click", function (evt) {
   if (popup.classList.contains("show")) {
     checkInDate.focus();
   }
+  if (popup.classList.contains("error")) {
+    popup.classList.remove("error");
+  }
+});
+
+form.addEventListener("submit", function (evt) {
+  if (!(checkInDate.value && checkOutDate.value && adultsQuantity.value && childrenQuantity.value)) {
+    evt.preventDefault();
+    popup.classList.remove("error");
+    popup.offsetWidth = popup.offsetWidth;
+    popup.classList.add("error");
+  }
+
 });
