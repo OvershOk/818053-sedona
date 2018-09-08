@@ -1451,6 +1451,27 @@ a {
   stroke: #81b3d2;
 }
 
+.quantity-button:disabled,
+.quantity-button.disabled,
+.quantity-button:disabled:hover,
+.quantity-button.disabled:hover,
+.quantity-button:disabled:focus,
+.quantity-button.disabled:focus,
+.quantity-button:disabled:active,
+.quantity-button.disabled:active {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.quantity-button:disabled:hover g,
+.quantity-button.disabled:hover g,
+.quantity-button:disabled:focus g,
+.quantity-button.disabled:focus g,
+.quantity-button:disabled:active g,
+.quantity-button.disabled:active g {
+  stroke: #a9a9a9;
+}
+
 .hotel-search-button {
   width: 100%;
   margin-top: 54px;
