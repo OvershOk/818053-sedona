@@ -1134,23 +1134,20 @@ a {
   margin-left: 0;
 }
 
-.sort-direction-item svg {
+.sort-direction-link[href] svg {
   fill: #cacaca;
 }
 
-.sort-direction-item a:hover svg,
-.sort-direction-item a:focus svg {
+.sort-direction-link[href]:hover svg,
+.sort-direction-link[href]:focus svg {
   fill: #231f20;
 }
 
-.sort-direction-item a:active svg {
+.sort-direction-link[href]:active svg {
   fill: #81b3d2;
 }
 
-.sort-direction-item-current svg,
-.sort-direction-item-current a:hover svg,
-.sort-direction-item-current a:focus svg,
-.sort-direction-item-current a:active svg {
+.sort-direction-link:not([href]) svg {
   fill: #81b3d2;
 }
 
@@ -1306,6 +1303,7 @@ a {
 
 .map iframe {
   position: absolute;
+
   border: none;
 }
 
