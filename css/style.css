@@ -812,9 +812,9 @@ img {
 
 .features-item h3 {
   margin: 0;
-  margin-right: 120px;
+  margin-right: 121px;
   margin-bottom: 67px;
-  margin-left: 120px;
+  margin-left: 121px;
   padding: 0;
 }
 
@@ -1045,6 +1045,11 @@ img {
 
 .filters-item input[type="checkbox"]:checked:disabled + label::before {
   background-image: url("../img/checkbox-on-disabled.svg");
+}
+
+.filters-item input[type="checkbox"]:focus + label::before {
+  outline: 1px dashed #ffffff;
+  outline-offset: 2px;
 }
 
 /* 3.7 фильтр цены */
