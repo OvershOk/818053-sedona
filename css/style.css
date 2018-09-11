@@ -539,7 +539,8 @@ img {
 /* 2 сетка */
 
 .wrapper {
-  width: 1200px;
+  min-width: 768px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -595,7 +596,7 @@ img {
 }
 
 .features-item {
-  width: 400px;
+  width: 33%;
 }
 
 .features-item-main {
@@ -617,14 +618,14 @@ img {
 }
 
 .features-image {
-  width: 800px;
-  height: 256px;
+  width: 67%;
+  /* height: 256px; */
   margin: 0;
   padding: 0;
 }
 
 .features-item-wrapper {
-  width: 400px;
+  width: 33%;
 }
 
 .more-features-list {
@@ -637,7 +638,7 @@ img {
 }
 
 .more-features-item {
-  width: 400px;
+  width: 33%;
 }
 
 /* 2.4 сетка раздела с поиском гостиницы */
@@ -651,6 +652,7 @@ img {
 /* 2.6 сетка подвала */
 
 .main-footer {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,17 +665,17 @@ img {
 }
 
 .footer-hashtag {
-  width: 400px;
+  width: 33%;
   margin: 0;
   padding: 0;
 }
 
 .footer-social {
-  width: 400px;
+  width: 33%;
 }
 
 .footer-copyright {
-  width: 400px;
+  width: 33%;
   margin: 0;
   padding: 0;
 }
@@ -682,9 +684,9 @@ img {
 
 .filters {
   padding-top: 27px;
-  padding-right: 72px;
+  padding-right: 6%;
   padding-bottom: 6px;
-  padding-left: 72px;
+  padding-left: 6%;
 }
 
 .filters-form {
@@ -701,7 +703,8 @@ img {
 }
 
 .filters-column {
-  width: 318px;
+  /* width: 318px; */
+  width: 220px;
   margin-left: auto;
 }
 
@@ -714,9 +717,9 @@ img {
   justify-content: flex-start;
   align-items: flex-end;
   padding-top: 30px;
-  padding-right: 72px;
+  padding-right: 6%;
   padding-bottom: 32px;
-  padding-left: 72px;
+  padding-left: 6%;
 
   -webkit-box-align: end;
   -webkit-box-pack: start;
@@ -739,7 +742,8 @@ img {
 }
 
 .sort-list {
-  width: 600px;
+  width: 270px;
+  flex-grow: 1;
   margin: 0;
   padding: 0;
 }
@@ -772,12 +776,12 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-right: 72px;
-  padding-left: 72px;
+  padding-right: 6%;
+  padding-left: 6%;
 }
 
 .site-navigation li {
-  width: 240px;
+  width: 20%;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -871,8 +875,9 @@ img {
 }
 
 .features-image img {
-  width: 800px;
-  height: 256px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .more-features-item {
@@ -1227,7 +1232,7 @@ img {
 
 .catalog-list {
   margin: 0;
-  padding: 0 72px;
+  padding: 0 6%;
 }
 
 .catalog-item {
@@ -1243,9 +1248,10 @@ img {
 .catalog-item::after {
   content: "";
   position: absolute;
-  right: -72px;
+  right: -6%;
   bottom: 0;
-  left: -72px;
+  left: -6%;
+  /* здесь возможно нужно переделать */
 
   height: 1px;
 
@@ -1257,7 +1263,8 @@ img {
   display: -ms-flexbox;
   display: flex;
       flex-wrap: wrap;
-  width: 500px;
+  width: 300px;
+  flex-grow: 1;
 
   -ms-flex-wrap: wrap;
 }
